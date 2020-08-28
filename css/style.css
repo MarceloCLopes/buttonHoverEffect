@@ -60,3 +60,8 @@
 .btn4::before {
   top: 50px;
 }
+
+/* Sempre que passamos o mouse sobre o botão, a cor da fonte muda */
+#wrapper div > p:hover {
+  color: #00bfb6;
+}
