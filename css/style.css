@@ -18,6 +18,8 @@
   margin: 30px 0;
   position: relative;
   border: 3px solid #ffffff;
+  /* Agora use a propriedade overflow: hidden para ocultar o controle deslizante */
+  overflow: hidden;
 }
 
 /* Defina o estilo do texto na tag p e defina sua posição como relativa para que, onde quer que passemos o botão, o texto fique no topo do controle deslizante */
@@ -29,7 +31,7 @@
   text-align: center;
   font-weight: 900;
   /* Use a propriedade de transição para um efeito de transição suave */
-  transition: all 0.5% ease;
+  transition: all 0.5s ease;
 }
 
 /* Defina o estilo do controle deslizante definindo-o como absoluto */
@@ -45,7 +47,7 @@
   left: 0;
   background: #ffffff;
   /* Use a propriedade de transição para um efeito de transição suave */
-  transition: all 0.5% ease;
+  transition: all 0.5s ease;
 }
 
 /* Agora podemos colocar os controles deslizantes onde quisermos */
@@ -69,7 +71,7 @@
 #wrapper div > p:hover {
   color: #00bfb6;
   /* Use a propriedade de transição para um efeito de transição suave */
-  transition: all 0.5% ease;
+  transition: all 0.5s ease;
 }
 
 /* efeito de pairar deslizante */
@@ -77,12 +79,12 @@
 .btn4:hover::before {
   top: 0;
   /* Use a propriedade de transição para um efeito de transição suave */
-  transition: all 0.5% ease;
+  transition: all 0.5s ease;
 }
 
 .btn2:hover::before,
 .btn3:hover::before {
   left: 0;
   /* Use a propriedade de transição para um efeito de transição suave */
-  transition: all 0.5% ease;
+  transition: all 0.5s ease;
 }
