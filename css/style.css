@@ -43,3 +43,20 @@
   left: 0;
   background: #ffffff;
 }
+
+/* Agora podemos colocar os controles deslizantes onde quisermos */
+.btn1::before {
+  top: -50px;
+}
+
+.btn2::before {
+  left: -225px;
+}
+
+.btn3::before {
+  left: 225px;
+}
+
+.btn4::before {
+  top: 50px;
+}
