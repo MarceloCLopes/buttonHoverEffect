@@ -19,3 +19,13 @@
   position: relative;
   border: 3px solid #ffffff;
 }
+
+/* Defina o estilo do texto na tag p e defina sua posição como relativa para que, onde quer que passemos o botão, o texto fique no topo do controle deslizante */
+#wrapper div > p {
+  position: relative;
+  z-index: 1;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 900;
+}
