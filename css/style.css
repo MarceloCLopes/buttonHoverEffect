@@ -1,0 +1,7 @@
+/* Vamos estilizar de forma que o objeto sempre esteja no centro do navegador */
+#wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
