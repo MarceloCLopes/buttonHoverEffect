@@ -44,6 +44,8 @@
   top: 0;
   left: 0;
   background: #ffffff;
+  /* Use a propriedade de transição para um efeito de transição suave */
+  transition: all 0.5% ease;
 }
 
 /* Agora podemos colocar os controles deslizantes onde quisermos */
@@ -74,9 +76,13 @@
 .btn1:hover::before,
 .btn4:hover::before {
   top: 0;
+  /* Use a propriedade de transição para um efeito de transição suave */
+  transition: all 0.5% ease;
 }
 
 .btn2:hover::before,
 .btn3:hover::before {
   left: 0;
+  /* Use a propriedade de transição para um efeito de transição suave */
+  transition: all 0.5% ease;
 }
