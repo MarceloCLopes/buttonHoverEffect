@@ -5,3 +5,17 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+/* Defina o estilo de todos os quatro botões e defina sua posição como relativa para que possamos colocar os controles deslizantes, onde quisermos, tornando sua posição absoluta */
+
+.btn1,
+.btn2,
+.btn3,
+.btn4 {
+  width: 220px;
+  height: 45px;
+  line-height: 45px;
+  cursor: pointer;
+  margin: 30px 0;
+  position: relative;
+  border: 3px solid #ffffff;
+}
