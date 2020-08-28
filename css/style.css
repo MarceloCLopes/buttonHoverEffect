@@ -28,6 +28,8 @@
   text-transform: uppercase;
   text-align: center;
   font-weight: 900;
+  /* Use a propriedade de transição para um efeito de transição suave */
+  transition: all 0.5% ease;
 }
 
 /* Defina o estilo do controle deslizante definindo-o como absoluto */
@@ -64,4 +66,6 @@
 /* Sempre que passamos o mouse sobre o botão, a cor da fonte muda */
 #wrapper div > p:hover {
   color: #00bfb6;
+  /* Use a propriedade de transição para um efeito de transição suave */
+  transition: all 0.5% ease;
 }
