@@ -29,3 +29,17 @@
   text-align: center;
   font-weight: 900;
 }
+
+/* Defina o estilo do controle deslizante definindo-o como absoluto */
+.btn1::before,
+.btn2::before,
+.btn3::before,
+.btn4::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #ffffff;
+}
